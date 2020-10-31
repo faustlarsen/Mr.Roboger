@@ -1,34 +1,46 @@
 .form-group {
   text-align:center;
 }
-
 .form-control {
   margin-left: 4in;
   width: 3in;
 }
-
 h1, h4 {
   margin-top: 0.1cm;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
   color:rgb(29, 252, 40);
 }
-
 .btn {
   background-color: rgb(29, 252, 40);
   font-weight: 600;
   color: rgb(0, 0, 0);
 }
-
 .container {
   margin-top: 1.6in;
   text-align: center;
   background-color: rgb(0, 0, 0);
   border-style: solid;
   border-width: 0.7cm;
-  border-color: rgb(125, 201, 125) rgb(82, 145, 82)  rgb(102, 187, 102) rgb(83, 158, 83);
+  border-color: rgb(111, 231, 111) rgb(151, 241, 151)  rgb(45, 233, 45) rgb(116, 201, 116);
 }
-
 #output {
   color: rgb(29, 252, 40)
+}
+img {
+  width: 4in;
+  display: none;
+  margin-left: 3.6in;
+}
+
+#reverse {
+  display: none;
+  width: 4in;
+  letter-spacing: 4.5ch;
+  text-align: center;
+}
+
+/*removes the border around image after clicking on it*/
+*:focus {
+  outline: none;
 }
