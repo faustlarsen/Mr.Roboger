@@ -7,7 +7,6 @@ $(document).ready(function() {
     upper[i] = upper[i][0].toUpperCase() + upper[i].substr(1);
     }
     let finalName = upper.join(" ");
-
     let number = $("#inputNumber").val();
     let array = [];
     for (let i = 0; i <= number; i++) {
@@ -23,10 +22,10 @@ $(document).ready(function() {
       }
     }
     $("img").show();
-    $("#reverse").show();
+    $("#reverseBtn").show();
     $("#output").text(array);
-    $("#reverse").click(function() {
-      $("#output").text(array.reverse());
+    $("#reverseBtn").click(function() {
+    $("#output").text(array.reverse());
     });
   });
 });

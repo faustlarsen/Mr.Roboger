@@ -1,11 +1,10 @@
-
 # _Mr. Roboger's Neighborhood_
 
 #### _A web app that returns a range of numbers and substitues specific ones with words. 10/31/2020_
 
 #### By _**Constantine Yakubovski**_
 
-## Description
+## Description 
 
 A web app that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:
 
@@ -15,49 +14,48 @@ A web app that takes a number from a user and returns a range of numbers from 0 
 
 - Numbers that contain a 3: all digits are replaced with _"Won't you be my neighbor?"_
 
-### Specs:
+### Describe: beepBoop():
 
-**Spec**: The program returns a range of numbers from 0 to the users inputted number.
+**Test**: "It should return an array of numbers starting with 0 up until inputted number"
+**Code**: 
+`let array = [];`
+`let inputNumber = number`
+`for (let  i = 0; i <= number; i++) {`
+`array.push(i); }`
+ **Expect**: (beepBoop(3).toEqual([0,1,2,3]);”
+___
+**Test**: "It should return an array with a 0 if the number 0 is inputted"
 
--  **Input**: "14"
+ **Expect**: (beepBoop(0).toEqual([0]);”
+___
+**Test**:  "It should return _"Beep!"_ instead of all numbers that contain 1"
 
--  **Output**: "0, 1, 2, 3, 4,5,6,7,8,9,10,11,12,13,14”
+ **Expect**: (beepBoop(1).toEqual(["Beep!"]);
+___
+**Test**: "It should return _"Boop!"_ instead of all numbers that contain 2"
 
-**Spec**: Numbers that contain a 1 are replaced with _"Beep!"_
+**Expect**: (beepBoop(2).toEqual(["Boop!"]);
+___
+ **Test**: "It should return _"Won't you be my neighbor?"_ instead of all numbers that contain 3"
 
--  **Input**: "14"
+**Expect**: (beepBoop(3).toEqual(["Won't you be my neighbor?"]);
+___
+ **Test**: "  "It should return "Won't you be my neighbor?" along with the input name.
 
--  **Output**: "0, Beep, 2, 3, 4, 5, 6, 7, 8, 9, Beep, Beep, Beep, Beep, Beep”
-
-**Spec**: Numbers that contain a 2 are replaced with _"Boop!"_
-
--  **Input**: "14"
-
--  **Output**: "0, Beep, Boop, 3, 4, 5, 6, 7, 8, 9, Beep, Beep, Boop, Beep, Beep”
-
-**Spec**: Numbers that contain a 3 are replaced with _"Won't you be my neighbor?"_
-
--  **Input**: " 14 "
-
--  **Output**: "0, Beep, Boop, Won't you be my neighbor?", 4, 5, 6, 7, 8, 9, Beep, Beep, Boop, Won't you be my neighbor?, Beep”
-
-**Spec**: Add a second form field that takes a name as an input.
-
--  **Output**: "Won't you be my neighbor, (name)?"
+**Expect**: (beepBoop(3).toEqual([0, "Beep!, "Boop!", "Won't you be my neighbor, [name]?"]);
 
 ## Setup/Installation Requirements
 
 -  _Open Terminal_
+-  `$ git clone` [this repo](https://faustlarsen.github.io/Mr.Roboger)
 
--  $ git clone [this repo](https://faustlarsen.github.io/Mr.Roboger)
+-  `$ cd neighbor`
 
--  _$ cd neighbor_
-
--  _$ open index.html_
+-  `$ open index.html`
 
 ## Known Bugs
 
-No known bugs.
+No known bugs.  
 
 ## Support and contact details
 
@@ -77,8 +75,9 @@ __faustlarsen@gmail.com__
 
 -  _Written in VS Code_
 
-### License
+### License 
 
 This software is licensed under the MIT license
+
 
 Copyright (c) 2020 **_Constantine Yakubovski_**
