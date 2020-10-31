@@ -50,9 +50,9 @@ ___
 ## Setup/Installation Requirements
 
 -  _Open Terminal_
--  `$ git clone` [this repo](https://faustlarsen.github.io/Mr.Roboger)
+-  `$ git clone` [this repo](https://github.com/faustlarsen/Mr.Roboger)
 
--  `$ cd neighbor`
+-  `$ cd mr.roboger`
 
 -  `$ open index.html`
 
