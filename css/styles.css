@@ -28,3 +28,7 @@ h1, h4 {
   border-width: 0.7cm;
   border-color: rgb(125, 201, 125) rgb(82, 145, 82)  rgb(102, 187, 102) rgb(83, 158, 83);
 }
+
+#output {
+  color: rgb(29, 252, 40)
+}
