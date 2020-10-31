@@ -7,17 +7,31 @@
     <script src="js/scripts.js"></script>
     <title>Mr. Roboger's Neighborhood</title>
   </head>
-  <body>
+  <body style="background-color: black;">
     <div class="container">
       <form id="picknumber">
-        <h1>Choose your destiny.</h1>
+        <h1>Choose Your Destiny</h1>
         <br>
         <div class="form-group">
           <label for="inputNUmber">
             <h4>Please enter a number from 0 to ∞</h4>
           </label>
+          <input id="inputNumber" class="form-control text-center" type="text">
+          <br>
+        </div>
+        <div class="form-group">
+          <label for="inputName">
+            <h4>What is your name?</h4>
+          </label>
+          <input id="inputName" class="form-control text-center" type="text">
+          <br>
+          <button type="submit" class="btn btn-dark">SUBMIT</button>
         </div>
       </form>
+      <br>
+      <div class="outputNumber">
+        <div id="output"></div>
+      </div>
     </div>
   </body>
 </html>
