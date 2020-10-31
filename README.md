@@ -17,11 +17,14 @@ A web app that takes a number from a user and returns a range of numbers from 0 
 ### Describe: beepBoop():
 
 **Test**: "It should return an array of numbers starting with 0 up until inputted number"
+
 **Code**: 
+
 `let array = [];`
 `let inputNumber = number`
 `for (let  i = 0; i <= number; i++) {`
 `array.push(i); }`
+
  **Expect**: (beepBoop(3).toEqual([0,1,2,3]);”
 ___
 **Test**: "It should return an array with a 0 if the number 0 is inputted"

@@ -42,3 +42,7 @@ img {
 *:focus {
   outline: none;
 }
+
+span {
+  font-size:30px;
+}

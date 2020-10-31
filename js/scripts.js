@@ -12,11 +12,11 @@ $(document).ready(function() {
     for (let i = 0; i <= number; i++) {
       let outcome = i.toString();
       if (outcome.includes(3)) {
-        array.push(" Won't you be my neighbor' " + ", " + finalName + "? ");
+        array.push(" Won't you be my neighbor" + ", " + finalName + "? ");
       } else if (outcome.includes(2)) {
-        array.push(' "Boop!" ');
+        array.push(' "Boop!"');
       } else if (outcome.includes(1)) {
-        array.push(' "Beep!" ');
+        array.push(' "Beep!"');
       } else {
         array.push(outcome);
       }
