@@ -50,6 +50,8 @@ ___
 ## Setup/Installation Requirements
 
 -  _Open Terminal_
+-  `$ cd ~`
+-  `$ cd desktop`
 -  `$ git clone` [this repo](https://github.com/faustlarsen/Mr.Roboger)
 
 -  `$ cd mr.roboger`
